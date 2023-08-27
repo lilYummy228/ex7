@@ -13,9 +13,9 @@ namespace ex7
             Console.Write("Введите текст: ");
             string text = Console.ReadLine();
             Console.Write("Введите кол-во повторений: ");
-            int repetitions = Convert.ToInt32(Console.ReadLine());
+            int repetitionsOfText = Convert.ToInt32(Console.ReadLine());
 
-            for (int i = 0; i < repetitions; i++)
+            for (int i = 0; i < repetitionsOfText; i++)
             {
                 Console.WriteLine(text);
             }
